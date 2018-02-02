@@ -29,21 +29,23 @@ Both statements converts the variable to number type.
 
 ### DOM manipulation
 
-*  `variable = document.querySelector(".classname");`
+`variable = document.querySelector(".classname");`
 `variable = document.querySelector(".classname p");`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-<br>
 Assigns a DOM element to a variable. Can be complex.
 
-* `element.addEventListener("click", functionName);`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
-<br>
+`element.addEventListener("click", functionName);`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 Runs specified function on click to the element. Note that no parenthesis needed.
 
-* `element.textContent = "Hello, World!";`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
-<br>
+`element.textContent = "Hello, World!";`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
 Access the content of tags like `<p>`. Changed content to "Hello, World!" in example.
 
-* `resetButton = document.createElement('button');
+`resetButton = document.createElement('button');
 resetButton.textContent = 'Start new game';
 document.body.appendChild(resetButton);`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
-<br>
 Creates DOM element with first statement, assigns it the value and add to the `<body>`.
+
+<details>
+<summary>`variable = document.querySelector(".classname");`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)</summary>
+<br>
+Assigns a DOM element to a variable. Can be complex.
+<details>
