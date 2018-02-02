@@ -19,27 +19,31 @@ Reference links lead to [Mozilla Developer Network](https://developer.mozilla.or
 
 ### Common functions and methods
 
- * `variable.toFixed(2)` [:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
+* `variable.toFixed(2)` [:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 Specifying how many decimal places we'd like the number to rounded to. Produces string.
- 215.9784 -> 215.98
+215.9784 -> 215.98
 
- * `Number( variable );` or `+variable;`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
- Both statements converts the variable to number type.
- "99.99" -> 99.99
+* `Number( variable );` or `+variable;`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+Both statements converts the variable to number type.
+"99.99" -> 99.99
 
 ### DOM manipulation
 
- *  `variable = document.querySelector(".classname");`
- `variable = document.querySelector(".classname p");`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
- Assigns a DOM element to a variable. Can be complex.
+*  `variable = document.querySelector(".classname");`
+`variable = document.querySelector(".classname p");`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+<br>
+Assigns a DOM element to a variable. Can be complex.
 
- * `element.addEventListener("click", functionName);`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
- Runs specified function on click to the element. Note that no parenthesis needed.
+* `element.addEventListener("click", functionName);`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+<br>
+Runs specified function on click to the element. Note that no parenthesis needed.
 
 * `element.textContent = "Hello, World!";`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
- Access the content of tags like `<p>`. Changed content to "Hello, World!" in example.
+<br>
+Access the content of tags like `<p>`. Changed content to "Hello, World!" in example.
 
 * `resetButton = document.createElement('button');
-     resetButton.textContent = 'Start new game';
-     document.body.appendChild(resetButton);`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+resetButton.textContent = 'Start new game';
+document.body.appendChild(resetButton);`[:blue_book:Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+<br>
 Creates DOM element with first statement, assigns it the value and add to the `<body>`.
