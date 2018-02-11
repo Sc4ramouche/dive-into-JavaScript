@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- loading Mocha styles to display results -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+  <!-- loading Mocha library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+  <!-- configure Mocha: BDD test -->
+  <script>
+    mocha.setup('bdd');
+  </script>
+
+  <!-- loading Chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+  <!-- connect assert to global scope -->
+  <script>
+    var assert = chai.assert;
+  </script>
+</head>
+
+<body>
+
+  <script>
+    function pow(x, n) {
+      if (n < 0 || (n % 1) || n === 0 && x === 0) {
+        return NaN;
+      }
+
+      let result = 1;
+
+      for (let i = 1; i <= n; i++) {
+        result *= x;
+      }
+
+      return result;
+    }
+  </script>
+
+  <!-- script containing specifications -->
+  <script src="test.js"></script>
+
+  <!-- element with id="mocha" display the results -->
+  <div id="mocha"></div>
+
+  <!-- run tests! -->
+  <script>
+    mocha.run();
+  </script>
+</body>
+
+</html>
