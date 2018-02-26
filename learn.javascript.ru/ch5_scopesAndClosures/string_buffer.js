@@ -12,6 +12,12 @@ buffer('must have');
 
 console.log( buffer() ); // Closures are must have
 
+buffer.clear();
+buffer('Cleared now?');
+buffer();
+
+console.log( buffer() ); // Cleared now?
+
 function makeBuffer() {
   let storage = '';
 
@@ -20,5 +26,9 @@ function makeBuffer() {
       return storage;
     }
     storage += stringValue;
+
+    buffer.clear = function() {
+      storage = '';
+    }
   };
 };
