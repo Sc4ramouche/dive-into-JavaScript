@@ -4,7 +4,7 @@
 
 function Article() {
     this.created = new Date();
-    Article.latest = this.created;
+     Article.latest = this.created;
     Article.count++;
 }
 
@@ -15,6 +15,6 @@ Article.showStats = function () {
 }
 
 new Article();
-new Article();
+new Article()
 
 Article.showStats();
