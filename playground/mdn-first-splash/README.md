@@ -16,11 +16,11 @@ I want you to create a simple guess the number type game. It should choose a ran
    2. Stop the player from being able to enter more guesses (this would mess the game up).
    3. Display control allowing the player to restart the game.
 7. If it is wrong and the player has turns left:
-  1. Tell the player they are wrong.
-  2. Allow them to enter another guess.
-  3. Increment the turn number by 1.
+   1. Tell the player they are wrong.
+   2. Allow them to enter another guess.
+   3. Increment the turn number by 1.
 8. If it is wrong and the player has no turns left:
-  1. Tell the player it is game over.
-  2. Stop the player from being able to enter more guesses (this would mess the game up).
-  3. Display control allowing the player to restart the game.
+   1. Tell the player it is game over.
+   2. Stop the player from being able to enter more guesses (this would mess the game up).
+   3. Display control allowing the player to restart the game.
 9. Once the game restarts, make sure the game logic and UI are completely reset, then go back to step 1.
