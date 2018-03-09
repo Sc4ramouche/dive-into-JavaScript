@@ -7,3 +7,4 @@ function applyAll(func, ...rest) {
 }
 
 console.log(applyAll(Math.max, 2, -2, 3)); // 3
+console.log();
